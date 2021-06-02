@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'EB Garamond', sans-serif;
+}
+body{
+  background: rgb(189,189,189);
+  background: radial-gradient(circle, rgba(189,189,189,1) 11%, rgba(237,238,245,1) 91%); 
+}
+/************INICIO - HEADER*********/
+header{
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  height: 109px;
+  width: 100%;
+  z-index: 99;
+  position: fixed;;
+}
+
+header img{
+  width: 100px;
+  border-radius:100%;
+  margin-left: 50px;
+}
+nav{
+  margin-top: 20px;
+  margin-right: 100px;
+  padding-right: 5px;
+  line-height: 3.5;
+}
+nav ul a {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 2px 16px;
+  margin: 0 2px;
+  background-color: rgba(0, 174, 255, 0.349);
+  transition: all .5s;
+  text-decoration:none;
+}
+
+/*  ACTIVAR MENU  */
+
+nav ul a.active, nav ul a:hover {
+  color: #0084ff(248, 8, 8);
+  transition: 3.s;
+}
+
+.hamburger-menu{
+  width: 40px;
+  height: 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+  
+}
+
+.line {
+  width: 100%;
+  height: 20%;
+  background-color: black;
+}
+/************FIN - HEADER*********/
+/************INICIO - SECCION IMG*********/
+.imgfull{
+  display: flex;
+
+}
+.imgfull img {
+  width: 100%;
+}
+
+.bootstrap img{
+  height:850px;
+}
+
+.bootstrap p {
+  color: #FFFFFF;
+}
+
+/************FIN - SECCION IMG*********/
+/************INICIO - SECCION TALLERES*********/
+.mkt-caja{ 
+  height: 420px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.box{
+  width: 400px;
+  height: 350px;
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
+}
+.box img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.box-transparente{  
+margin-top: 110px;
+box-sizing: border-box;
+position: absolute;
+height: 150px;
+width: 180px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.7);
+/*background-color:rgba(0, 0, 0, 0.4);*/
+}
+.box-transparente h2 {
+color: rgba(255, 255, 255, 0.9);
+font-weight: 100;
+font-size: 20px;
+margin: 0 auto;
+}
+.box-transparente p{
+color: rgba(255, 255, 255, 0.9);
+font-weight: 100;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+margin: 0 auto;
+
+}
+.box-transparente button{
+color: rgba(255, 255, 255, 0.9);
+font-weight: 100;
+width: 60px;
+margin: 10px auto;
+background-color: transparent;
+border: none;
+font-weight: bolder;
+}
+.box-transparente button:hover{
+  color: white;
+  border-radius: 5px;
+  background-color: #0084ff;
+  box-shadow: 0 5px 10px 2px rgba(10, 137, 255, 0.5);
+}
+
+/************FIN - SECCION TALLERES*********/
+/************INICIO - SECCION REFERENCIAS*********/
+.referencia-container{
+  height: 470px;
+}
+#referencia-titulo{
+  margin: 20px 0 15px 0;
+  font-weight: 300;
+  text-align: center;
+}
+.ref-boton {
+  align-items: center;
+  width: 60px;
+  margin: 20px auto;
+}
+.ref-boton button{
+  padding: 2px;
+  border: none;
+  width: 70px;
+  font-weight: bolder;
+}
+.ref-boton button:hover{
+  color: white;
+  border-radius: 5px;
+  background-color: #0084ff;
+  box-shadow: 0 5px 10px 2px rgba(10, 137, 255, 0.5);
+}
+
+.conteiner-box{
+  display: flex;
+  justify-content: space-evenly;
+}
+.box2{
+  width: 400px;
+  height: 350px;
+  margin-top: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box-text{
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  background-color:rgba(0, 0, 0, 0.2);
+}
+.box-text p {
+  color: black;
+  font-size: 18px;
+}
+.box-img-text{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+ /* background-color:rgba(0, 0, 0, 0.4);*/
+}
+.box-img-text img {
+  width: 80px;
+  border-radius: 50%;
+  /*background-color: darkgreen;*/
+  margin: auto;
+
+}
+.box-img-text h3, p{
+  color: black;
+  margin: auto;
+}
+/*************FIN - SECCION REFERENCIAS*********/
+/*************INICIO - HERRAMIENTAS*********/
+.herramientas{
+  height: 600px;
+  display: block;
+  overflow: hidden;
+
+}
+#herra{
+  margin: 20px 0 15px 0;
+  font-weight: 300;
+  text-align: center;
+}
+
+.box-herra1{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 500px;
+}
+
+
+
+.contenedor-herramientas{
+ text-align: center;
+ /* margin: 20px;*/
+ /* height: 320px;*/
+}
+
+.contenedor-herramientas:hover{
+  transform: translateX(10px);
+  transition: 2s;
+}
+
+/*.contenedor-herramientas img{
+  /*width:250px;*/
+  /*height:250px;*/
+ /*border-radius:5px;
+}
+*/
+.contenedor-herramientas img:hover{
+ /* width:250px;*/
+  /*height:250px;*/
+  border-radius: 5px;
+  box-shadow: gray 1px 1px 5px 5px;
+  transition: 1s;
+}
+
+.contenedor-herramientas p{
+  color: black;
+  margin: auto;
+  font-size: 20px;
+}
+.contenedor-herramientas a{
+  margin-top: 10px;
+}
+
+/*************FIN - HERRAMIENTAS*********/
+/*************INICIO - CONTACTO - CSS GRID *********/
+
+.contacto{
+  padding: 1em;
+  max-width: 100%;
+}
+
+.contacto-titulo{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contenedor-contacto{
+  margin: 50px 40px 5px
+}
+
+.contenedor-formulario form {
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns:repeat(2, 3fr);
+  grid-template-rows: repeat(2, 3fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.contenedor-formulario form .elemento1{
+  width: 60%;
+}
+
+.contenedor-formulario form .elemento2{
+  width: 60%;
+}
+
+.contenedor-formulario form .elemento3{
+  width: 60%;
+}
+
+.contenedor-formulario form .elemento4{
+  width: 60%;
+}
+
+/*.contenedor-formulario form .elemento5{
+  grid-column: 1/3;
+  grid-row: 3/3;
+  width: 40%;
+  margin: 0 auto;
+}*/
+
+.contenedor-formulario form .elemento6{
+  grid-column: 1/2;
+  grid-row: 4/5;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contenedor-formulario form p{
+  margin: 0;
+  padding:16px;
+}
+
+.contenedor-formulario form button,
+.contenedor-formulario form input,
+.contenedor-formulario form textarea {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  background:none;
+  outline: none;
+  border-bottom: 1px solid #0084ff;
+  background: rgba(0, 174, 255, 0.09);
+}
+
+.contenedor-formulario form button{
+  background-color: #0084ff;
+  color: #FFFFFF;
+  border: 0;
+  text-transform: uppercase;
+  padding: 16px;
+  width: 100px;
+}
+
+
+/*************FIN - CONTACTO - CSS GRID*********/
+
+/*************INICIO - FOOTER*********/
+.contenedor-footer{
+  display: flex;
+  justify-content: center;
+
+}
+
+.contacto-info{
+  font-size: 18px;
+}
+/*************FIN - FOOTER*********/
+
+
+
+
+
+
+/************* MEDIA QUERIES *********/
+
+/*******************************************************/
+@media (max-width: 1230px){
+  .hamburger-menu{
+    display: flex; 
+}
+
+
+.mkt-caja{
+  height: 100%;
+  padding-bottom: 50px;
+  background-color: rgb(216, 219, 19);
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul a {
+  display: none;
+}
+
+.herramientas{
+  height: 750px;
+  background-color: rgba(250, 68, 226, 0.767) ;
+  flex-direction: column;
+  align-items: center;
+   overflow: hidden;
+}
+
+.conteiner-box{
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  z-index: 96;
+
+}
+
+.referencia-container{
+  height: 900px;
+  background-color: rgb(184, 19, 19);
+}
+
+}
+
+
+/************* TABLET *****************************/
+@media (max-width: 768px) {
+  .hamburger-menu{
+    display: flex; 
+}
+
+nav ul a {
+  display: none;
+}
+
+.mkt-caja{
+  height: 900px;
+  background-color: rgb(130, 238, 220);
+  flex-direction: column;
+}
+
+.conteiner-box{
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  z-index: 96;
+
+}
+
+.herramientas{
+  max-height: 1500px;
+  background-color: green;
+  flex-direction: column;
+  align-items: center;
+   
+}
+.referencia-container{
+  height: 950px;
+  background-color: yellow;
+}
+
+}
