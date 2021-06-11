@@ -22,17 +22,24 @@ header{
 }
 
 header img{
-  width: 100px;
+  width: 80px;
   border-radius:100%;
-  margin-left: 50px;
+  margin-top: 10px; 
+  margin-right: 20px;
+  margin: 15px auto ;
 }
 nav{
   margin-top: 20px;
   margin-right: 100px;
-  
   padding-right: 5px;
-  line-height: 3.5;
+  line-height: 3.5; 
 }
+
+nav{
+  margin: 30px 5px;
+}
+
+
 nav ul a {
   color: black;
   font-weight: 400;
@@ -41,6 +48,7 @@ nav ul a {
   margin: 0 2px;
   background-color: rgba(0, 174, 255, 0.349);
   transition: all .5s;
+  text-decoration:none;
 }
 
 /*  ACTIVAR MENU  */
