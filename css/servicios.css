@@ -208,321 +208,167 @@ h3{
 /************* MEDIA QUERIES *********/
 
 /*******************************************************/
-@media (max-width: 1230px){
-  /* .hamburger-menu{
-    display: flex; 
-} */
-
-
-.mkt-caja{
-  /* background-color: rgb(216, 219, 19); */
-  min-height: 1550px;
-
-}
-.contenedor-mkt{
-  /* background-color: lightcoral; */
+@media (max-width: 1280px){
+section{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  max-height: 1600px;
-  min-height: 1500px;
-  align-items: center;
-  max-width: 900px; 
-  margin: 0 auto;
-  
+  background-color: rgba(227, 143, 106,0.6);
 }
 
-/* nav ul a {
-  display: none;
-} */
 
-/* .herramientas{
-  
-  min-height: 1100px;
-  background-color: rgba(250, 68, 226, 0.767) ;
-  flex-direction: column;
-  align-items: center;
-   overflow: hidden;
-}
-
-.conteiner-box{
-  flex-direction: column;
-  align-items: center;
-  height: 800px;
-  z-index: 96;
-
-} */
-
-.herramientas{
+.casamiento{
+  min-height: 1000px;
   max-height: 1500px;
-  min-height: 1100px;
-  /* background-color: green; */
-  /* flex-direction: column;
-  align-items: center; */
-}
-
-.box-herra1{
-display: flex;
-/* justify-content: center; */
-/* background-color: cadetblue; */
-max-height: 1500px;
-height: 1000px;
-max-width: 900px;
-flex-wrap: wrap;
-flex-direction: row;
-align-items: center;
-margin: 0 auto;
-}
-
-.contenedor-herramientas{
-  margin: 10px;
-}
-
-.referencia-container{
-  /* background-color: rgb(184, 19, 19); */
-  min-height: 1400px;
-}
-
-.conteiner-box{
   display: flex;
-  /* background-color: blue; */
-  max-height: 1300px;
-  min-height: 1200px;
-  max-width: 900px;
+  flex-direction: column;
+  align-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
+  width:500px;
   margin: 0 auto;
 }
 
-
+.imagen img{
+ 
+  width: 500px
 }
 
-@media (max-width: 930px){
-
-  header{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
-  
-  header img{
-    width: 80px;
-    border-radius:100%;
-    /* margin-top: 10px; */
-    margin-right: 20px;
-    margin: 15px auto ;
-  }
-  
-  nav{
-    margin: 30px 5px;
-  }
-  
-  .hamburger-menu{
-    display: flex; 
-  }
-  
-  nav ul a {
-    display: none;
-  }
-  
-
-
-
-
-}
-
-
-
-/************* TABLET *****************************/
-@media (max-width: 768px) {
-
-/* .hamburger-menu{
-    display: flex; 
-}
-
-nav ul a {
-  display: none;
-} */
-
-
-
-/* .hamburger-menu .line {
-  width: 100%;
-  height: 20%;
-  background-color: black;
-} */
-
-header{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-
-header img{
-  width: 80px;
-  border-radius:100%;
-  /* margin-top: 10px; */
-  margin-right: 20px;
-  margin: 15px auto ;
-}
-
-nav{
-  margin: 30px 5px;
-}
-
-
-/* .mkt-caja{
-  height: 900px;
-  background-color: rgb(130, 238, 220);
-  flex-direction: column;
-} */
-
-.mkt-caja{
-  min-height: 1500px;
-  margin: 0 auto;
-  /* background-color: yellow; */
-  /* min-height: 1450px; */
-  max-width: 500px;
-
-}
-.contenedor-mkt{
-  /* background-color: blue; */
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-height: 1500px;
-  min-height: 1400px;
-  align-items: center;
-  max-width: 900px; 
+.text-casamiento{
   margin: 0 auto;
 }
 
-
-
-
-
-.conteiner-box{
-  flex-direction: column;
-  align-items: center;
-  height: 800px;
-  z-index: 96;
+.text-casamiento h2{
+  font-size: 45px;
+  text-align: center;
 
 }
+.text-casamiento p{
 
-.herramientas{
-  max-height: 1500px;
-  min-height: 1100px;
-  /* background-color: green; */
-  /* flex-direction: column;
-  align-items: center; */
-}
-
-.box-herra1{
-  display: flex;
- justify-content: center;
- flex-wrap: wrap;
- flex-direction: row;
-}
-
-.contenedor-herramientas{
-  margin: 10px;
-}
-
-
-.referencia-container{
-  margin: 0 auto;
-  /* background-color: yellow; */
-  min-height: 1450px;
-  max-width: 500px;
-
-}
-
-.conteiner-box{
-  display: flex;
-  justify-content: space-evenly;
-  /* background-color: lightcoral; */
-  max-height: 1500px;
-  min-height: 1300px;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contacto{
-  /* padding: 1em; */
-  max-width: 100%; 
-  display:grid;
-
-}
-
-.contacto-titulo{
-  text-transform: uppercase;
+  font-size: 20px;
   text-align: center;
 }
 
-/*.contenedor-contacto{
-  /* margin: 50px 40px 5px 
-}*/
 
-.contenedor-formulario form {
-  /* margin: 30px auto; */
-  display: grid;
-  grid-template-columns:repeat(1, 4fr);
-  grid-template-rows: repeat(1, 4fr);
-  row-gap: 10px;
-  column-gap: 10px;
+
+
+.servicios {
+  text-transform: uppercase;
+
+  display: flex;
+  flex-direction: column;
+}
+.servicios .cumple{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  
+}
+.servicios .cumple img{
+  width: 364px;
+  height: 364px;
+}
+.servicios .cumple .text-cumple{
+  margin-top: 20px;
+  width: 500px;
 }
 
-.contenedor-formulario form .elemento1{
-  width: 100%;
+.servicios .cumple .text-cumple h2{
+  font-size: 20px;
+}
+.servicios .cumple .text-cumple p{
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 100;
+}
+.servicios .reunion-coorporativa{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   
 }
 
-.contenedor-formulario form .elemento2{
-  width: 100%;
-  
+.servicios .reunion-coorporativa img{
+  width: 364px;
+  height: 364px;
+}
+
+.servicios .reunion-coorporativa .text-coorp{
+  margin-top: 20px;
+  width: 500px;
+}
+.servicios .reunion-coorporativa .text-coorp h2{
+  font-size: 20px;
+}
+.servicios .reunion-coorporativa .text-coorp p{
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.servicios .expo-cultural{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
  
 }
 
-.contenedor-formulario form .elemento3{
-  width: 100%;
-  
-  
+.servicios .expo-cultural img{
+  width: 364px;
+  height: 364px;
+}
+.servicios .expo-cultural .text-expo-cult{
+  margin-top: 20px;
+  width: 500px;
 }
 
-.contenedor-formulario form .elemento4{
-  width: 100%;
-  
-  
+.servicios .expo-cultural .text-expo-cult h2{
+  font-size: 20px;
 }
 
-.contenedor-formulario form .elemento6{
-  /* grid-column: 1/2; */
-  grid-row: 5/5; 
-  width: 20%;
-  margin: 0 auto;
-  padding-right: 100px;
+.servicios .expo-cultural .text-expo-cult p{
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 100;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
-@media (max-width: 615px){
-  .herramientas{
-    max-height: 1500px;
-    min-height: 2050px;
-    /* background-color:cadetblue; */
-    /* flex-direction: column;
-    align-items: center; */
-  }
-  
-  .box-herra1{
-    display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
-   flex-direction: row;
-  }
-}
+
+
+
+
