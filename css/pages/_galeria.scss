@@ -1,0 +1,21 @@
+.container-fluid {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	margin: 0 auto;
+	img {
+		width: 50%;
+		height: 50%;
+	}
+}
+.row {
+	height: 80%;
+	background-color: red;
+}
+.centrar {
+	img {
+		width: 500px;
+	}
+}

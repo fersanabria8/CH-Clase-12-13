@@ -1,0 +1,134 @@
+section {
+	text-align: center;
+}
+
+h3 {
+	text-transform: uppercase;
+}
+
+.casamiento {
+	height: 748px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.text-casamiento {
+	margin-left: 200px;
+    h2 {
+        font-size: 45px;
+        width: 500px;
+        text-align: left;
+    }
+    p {
+        font-size: 20px;
+        width: 500px;
+        margin-top: 20px;
+        text-align: left;
+    }
+}
+.servicios {
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 50px;
+    .cumple {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    img {
+        width: 464px;
+        height: 464px;
+    }
+    .text-cumple {
+        margin-top: 20px;
+        width: 500px;
+        
+        h2 {
+            font-size: 20px;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: 100;
+        }
+    }
+
+    .reunion-coorporativa {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+
+        img {
+            width: 464px;
+            height: 464px;
+
+            .text-coorp {
+                margin-top: 20px;
+                width: 500px;
+                
+                h2 {
+                    font-size: 20px;
+                }
+                
+                p {
+                    margin-top: 10px;
+                    font-size: 16px;
+                    font-weight: 100;
+                }
+           }
+        
+
+       }
+        
+
+    }
+    
+    .expo-cultural {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        img {
+            width: 464px;
+            height: 464px;
+            
+            
+            .text-expo-cult {
+                margin-top: 20px;
+                width: 500px;
+                
+                h2 {
+                    font-size: 20px;
+                    
+                    p {
+                        margin-top: 10px;
+                        font-size: 16px;
+                        font-weight: 100;
+                    }
+                }
+            }
+            
+        }
+
+
+    }
+
+}
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'EB Garamond', sans-serif;
+  max-width: 1920px;
+}
+body{
+  background: rgb(189,189,189);
+  background: radial-gradient(circle, rgba(189,189,189,1) 11%, rgba(237,238,245,1) 91%); 
+}
