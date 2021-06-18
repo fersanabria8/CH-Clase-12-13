@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background: #FFFFFF;
+  background: #FFF;
   display: flex;
   justify-content: space-between;
   height: 109px;
@@ -50,12 +50,12 @@ nav ul a {
 }
 
 nav ul a:hover {
-  color: #0084ff 248, 8, 8;
+  color: #0084ff;
   transition: .3s;
 }
 
 nav ul a.active {
-  color: #0084ff 248, 8, 8;
+  color: #0084ff;
   transition: .3s;
 }
 
@@ -71,7 +71,7 @@ nav ul a.active {
 .line {
   width: 100%;
   height: 20%;
-  background-color: black;
+  background-color: rgba(0, 174, 255, 0.349);
 }
 
 .imgfull {
@@ -93,7 +93,7 @@ nav ul a.active {
 }
 
 .bootstrap p {
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 .contenedor-mkt {
@@ -167,10 +167,10 @@ nav ul a.active {
 }
 
 .box-transparente button:hover {
-  color: white;
+  color: #FFF;
   border-radius: 5px;
   background-color: #0084ff;
-  box-shadow: 0 5px 10px 2px rgba(10, 137, 255, 0.5);
+  box-shadow: 0 5px 10px 2px rgba(0, 174, 255, 0.349);
 }
 
 .referencia-container {
@@ -197,10 +197,10 @@ nav ul a.active {
 }
 
 .ref-boton button:hover {
-  color: white;
+  color: #FFF;
   border-radius: 5px;
   background-color: #0084ff;
-  box-shadow: 0 5px 10px 2px rgba(10, 137, 255, 0.5);
+  box-shadow: 0 5px 10px 2px rgba(0, 174, 255, 0.349);
 }
 
 .conteiner-box {
@@ -357,7 +357,7 @@ p {
   border-bottom: 1px solid #0084ff;
   background: rgba(0, 174, 255, 0.09);
   background-color: #0084ff;
-  color: #FFFFFF;
+  color: #FFF;
   border: 0;
   text-transform: uppercase;
   padding: 16px;
