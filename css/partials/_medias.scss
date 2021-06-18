@@ -1,9 +1,4 @@
 @media (max-width: 1280px) {
-	section {
-		display: flex;
-		flex-direction: column;
-		background-color: rgb(227, 143, 106, 0.6);
-	}
 	.casamiento {
 		min-height: 1000px;
 		max-height: 1500px;
@@ -151,7 +146,7 @@
 	}
 }
 @media (max-width: 1135px) {
-	section {
+	.conainer-fluid {
 		height: 900px;
 		min-height: 1100px;
 		display: flex;
@@ -169,6 +164,19 @@
 		text-align: center;
 	}
 }
+
+.casamiento {
+	min-height: 1000px;
+	max-height: 1500px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	flex-wrap: wrap;
+	width: 500px;
+	margin: 0 auto;
+}
+
+
 @media (max-width: 930px) {
 	header {
 		display: flex;
@@ -193,59 +201,32 @@
 		display: flex;
 	}
 }
-@media (max-width: 750px) {
-	section {
-		height: 900px;
-		min-height: 900px;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		align-items: center;
-	}
-	.contenedor {
-		margin-top: 150px;
-		width: 100%;
-		img {
-			width: 350px;
-			height: 400px;
-		}
-		&.imagen {
-			&:hover {
-				transform: translateY(-90px);
-				transition: 2s;
-			}
-		}
-	}
-	.txt-sobremi {
-		margin: auto 0;
-		width: 550px;
-		text-align: center;
-		p {
-			font-size: 20px;
-			font-weight: 100;
-			margin: 0 auto;
-			text-align: center;
-		}
-	}
-}
+
 @media (max-width: 768px) {
+
 	header {
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
-/****************************************************************/			
 		img {
-			width: 80%;
+			width: 80px;
 			border-radius: 100%;
 			margin-right: 20px;
 			margin: 15px auto;
 		}
 	}
-
-/****************************************************************/		
 	nav {
 		margin: 30px 5px;
+			ul {
+				a {
+				display: none;
+				}
+			}
 	}
+	.hamburger-menu {
+		display: flex;
+	}
+
 	.mkt-caja {
 		min-height: 1500px;
 		margin: 0 auto;
@@ -300,6 +281,7 @@
 		text-transform: uppercase;
 		text-align: center;
 	}
+
 /****************************************************************/	
 	.contenedor-formulario {
 		form {
@@ -331,6 +313,55 @@
 
 }
 
+.casamiento {
+	min-height: 1000px;
+	max-height: 1500px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	flex-wrap: wrap;
+	width: 500px;
+	margin: 0 auto;
+}
+
+@media (max-width: 750px) {
+	.conainer-fluid {
+		height: 900px;
+		min-height: 900px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	.contenedor {
+		margin-top: 150px;
+		width: 100%;
+		img {
+			width: 350px;
+			height: 400px;
+		}
+		&.imagen {
+			&:hover {
+				transform: translateY(-90px);
+				transition: 2s;
+			}
+		}
+	}
+	.txt-sobremi {
+		margin: auto 0;
+		width: 550px;
+		text-align: center;
+		p {
+			font-size: 20px;
+			font-weight: 100;
+			margin: 0 auto;
+			text-align: center;
+		}
+	}
+}
+
+
+
 
 /****************************************************************/	
 @media (max-width: 615px) {
@@ -344,4 +375,16 @@
 		flex-wrap: wrap;
 		flex-direction: row;
 	}
+	.casamiento {
+		min-height: 1000px;
+		max-height: 1500px;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		flex-wrap: wrap;
+		width: 500px;
+		margin: 0 auto;
+	}
+
+
 }

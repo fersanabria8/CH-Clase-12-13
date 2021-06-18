@@ -409,7 +409,7 @@ p {
 
 .contenedor .imagen:hover {
   transform: translateX(-50px);
-  transition: .2s;
+  transition: 2s;
 }
 
 .txt-sobremi {
@@ -660,6 +660,107 @@ h3 {
   background: rgba(0, 174, 255, 0.09);
 }
 
+@media (max-width: 1280px) {
+  .casamiento {
+    min-height: 1000px;
+    max-height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 0 auto;
+  }
+  .imagen img {
+    width: 500px;
+  }
+  .text-casamiento {
+    margin: 0 auto;
+  }
+  .text-casamiento h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .text-casamiento p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .servicios {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+  }
+  .servicios .cumple {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .servicios .cumple img {
+    width: 364px;
+    height: 364px;
+  }
+  .servicios .cumple .text-cumple {
+    margin-top: 20px;
+    width: 500px;
+  }
+  .servicios .cumple .text-cumple h2 {
+    font-size: 20px;
+  }
+  .servicios .cumple .text-cumple p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  .servicios .reunion-coorporativa {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .servicios .reunion-coorporativa img {
+    width: 364px;
+    height: 364px;
+  }
+  .servicios .reunion-coorporativa .text-coorp {
+    margin-top: 20px;
+    width: 500px;
+  }
+  .servicios .reunion-coorporativa .text-coorp h2 {
+    font-size: 20px;
+  }
+  .servicios .reunion-coorporativa .text-coorp p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  .servicios .expo-cultural {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .servicios .expo-cultural img {
+    width: 364px;
+    height: 364px;
+  }
+  .servicios .expo-cultural .text-expo-cult {
+    margin-top: 20px;
+    width: 500px;
+  }
+  .servicios .expo-cultural .text-expo-cult h2 {
+    font-size: 20px;
+  }
+  .servicios .expo-cultural .text-expo-cult p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 100;
+  }
+}
+
 @media (max-width: 1230px) {
   .mkt-caja {
     min-height: 1550px;
@@ -706,6 +807,37 @@ h3 {
   }
 }
 
+@media (max-width: 1135px) {
+  .conainer-fluid {
+    height: 900px;
+    min-height: 1100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .contenedor {
+    margin-top: 150px;
+    width: 100%;
+  }
+  .txt-sobremi {
+    margin: auto 0;
+    width: 550px;
+    text-align: center;
+  }
+}
+
+.casamiento {
+  min-height: 1000px;
+  max-height: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: 0 auto;
+}
+
 @media (max-width: 930px) {
   header {
     display: flex;
@@ -743,6 +875,12 @@ h3 {
   }
   nav {
     margin: 30px 5px;
+  }
+  nav ul a {
+    display: none;
+  }
+  .hamburger-menu {
+    display: flex;
   }
   .mkt-caja {
     min-height: 1500px;
@@ -798,6 +936,7 @@ h3 {
     text-transform: uppercase;
     text-align: center;
   }
+  /****************************************************************/
   .contenedor-formulario form {
     display: grid;
     grid-template-columns: repeat(1, 4fr);
@@ -825,6 +964,52 @@ h3 {
   }
 }
 
+.casamiento {
+  min-height: 1000px;
+  max-height: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 750px) {
+  .conainer-fluid {
+    height: 900px;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .contenedor {
+    margin-top: 150px;
+    width: 100%;
+  }
+  .contenedor img {
+    width: 350px;
+    height: 400px;
+  }
+  .contenedor.imagen:hover {
+    transform: translateY(-90px);
+    transition: 2s;
+  }
+  .txt-sobremi {
+    margin: auto 0;
+    width: 550px;
+    text-align: center;
+  }
+  .txt-sobremi p {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+/****************************************************************/
 @media (max-width: 615px) {
   .herramientas {
     max-height: 1500px;
@@ -836,5 +1021,14 @@ h3 {
     flex-wrap: wrap;
     flex-direction: row;
   }
+  .casamiento {
+    min-height: 1000px;
+    max-height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 0 auto;
+  }
 }
-/*# sourceMappingURL=main.css.map */
