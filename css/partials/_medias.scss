@@ -358,10 +358,15 @@
 			text-align: center;
 		}
 	}
+	.servicios {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		flex-wrap: wrap;
+	}
+
+
 }
-
-
-
 
 /****************************************************************/	
 @media (max-width: 615px) {
@@ -386,5 +391,11 @@
 		margin: 0 auto;
 	}
 
+	.servicios {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		flex-wrap: wrap;
+	}
 
 }
