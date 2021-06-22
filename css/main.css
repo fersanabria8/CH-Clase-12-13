@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  list-style: none;
   box-sizing: border-box;
   font-family: 'EB Garamond', sans-serif;
   max-width: 1920px;
@@ -12,33 +13,50 @@ body {
   background: radial-gradient(circle, #bdbdbd 11%, #edeef5 91%);
 }
 
-header {
-  background: #FFF;
-  display: flex;
-  justify-content: space-between;
-  height: 109px;
+header nav {
+  background-color: #FFF;
+  height: 80px;
   width: 100%;
   z-index: 99;
   position: fixed;
 }
 
-header img {
-  width: 80px;
+header nav .checkbtn {
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+header nav #check {
+  display: none;
+}
+
+header nav label.logo {
+  line-height: 80px;
+  padding: 0 40px;
+}
+
+header nav label.logo img {
+  width: 75px;
   border-radius: 100%;
-  margin-top: 10px;
+}
+
+header nav ul {
+  float: right;
   margin-right: 20px;
-  margin: 15px auto;
 }
 
-nav {
-  margin-top: 20px;
-  margin-right: 100px;
-  padding-right: 5px;
-  line-height: 3.5;
-  margin: 30px 5px;
+header nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
 }
 
-nav ul a {
+header nav ul a {
   color: black;
   font-weight: 400;
   font-size: 20px;
@@ -49,29 +67,14 @@ nav ul a {
   text-decoration: none;
 }
 
-nav ul a:hover {
+header nav ul a:hover {
   color: #0084ff;
   transition: .3s;
 }
 
-nav ul a.active {
+header nav ul a.active {
   color: #0084ff;
   transition: .3s;
-}
-
-.hamburger-menu {
-  width: 40px;
-  height: 20px;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-right: 20px;
-}
-
-.line {
-  width: 100%;
-  height: 20%;
-  background-color: rgba(0, 174, 255, 0.349);
 }
 
 .imgfull {
@@ -838,50 +841,39 @@ h3 {
   margin: 0 auto;
 }
 
-@media (max-width: 930px) {
-  header {
-    display: flex;
-    justify-content: space-between;
+@media (max-width: 961px) {
+  header nav ul {
+    position: fixed;
     width: 100%;
+    height: 100vh;
+    background: white;
+    background: linear-gradient(90deg, white 14%, #dfdfdf 65%);
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
   }
-  header img {
-    width: 80px;
-    border-radius: 100%;
-    margin-right: 20px;
-    margin: 15px auto;
+  header nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
   }
-  nav {
-    margin: 30px 5px;
+  header nav ul a {
+    font-size: 20px;
   }
-  nav ul a {
-    display: none;
+  header nav ul a:hover, header nav ul a.active {
+    background: #0082e6;
+    color: #FFF;
   }
-  .hamburger-menu {
-    display: flex;
+  header nav .checkbtn {
+    display: block;
+  }
+  header nav #check:checked ~ ul {
+    left: 0;
   }
 }
 
 @media (max-width: 768px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  header img {
-    width: 80px;
-    border-radius: 100%;
-    margin-right: 20px;
-    margin: 15px auto;
-  }
-  nav {
-    margin: 30px 5px;
-  }
-  nav ul a {
-    display: none;
-  }
-  .hamburger-menu {
-    display: flex;
-  }
   .mkt-caja {
     min-height: 1500px;
     margin: 0 auto;
