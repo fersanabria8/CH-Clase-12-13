@@ -1,5 +1,5 @@
 @media (max-width: 1280px) {
-	.casamiento {
+	.casa_seccion {
 		min-height: 1000px;
 		max-height: 1500px;
 		display: flex;
@@ -9,11 +9,11 @@
 		width: 500px;
 		margin: 0 auto;
 	}
-	.imagen {
 		img {
 			width: 500px;
+			
 		}
-	}
+
 	.text-casamiento {
 		margin: 0 auto;
 		h2 {
@@ -25,23 +25,23 @@
 			text-align: center;
 		}
 	}
-	.servicios {
-		text-transform: uppercase;
+	.cards {
 		display: flex;
 		flex-direction: column;
 		.cumple {
-			height: 700px;
+			height: 500px;
 			display: flex;
 			flex-direction: column;
 			flex-wrap: wrap;
 			align-items: center;
 			img {
-				width: 364px;
-				height: 364px;
+				width: 300px;
+				height: 300px;
 			}
 			.text-cumple {
-				margin-top: 20px;
-				width: 500px;
+				// margin-top: 20px;
+				width: 300px;
+                text-align: center;
 				h2 {
 					font-size: 20px;
 				}
@@ -53,18 +53,19 @@
 			}
 		}
 		.reunion-coorporativa {
-			height: 700px;
+			height: 500px;
 			display: flex;
 			flex-direction: column;
 			flex-wrap: wrap;
 			align-items: center;
 			img {
-				width: 364px;
-				height: 364px;
+				width: 300px;
+				height: 300px;
 			}
 			.text-coorp {
-				margin-top: 20px;
-				width: 500px;
+				// margin-top: 20px;
+				width: 300px;
+                text-align: center;
 				h2 {
 					font-size: 20px;
 				}
@@ -76,18 +77,19 @@
 			}
 		}
 		.expo-cultural {
-			height: 700px;
+			height: 500px;
 			display: flex;
 			flex-direction: column;
 			flex-wrap: wrap;
 			align-items: center;
 			img {
-				width: 364px;
-				height: 364px;
+				width: 300px;
+				height: 300px;
 			}
 			.text-expo-cult {
 				margin-top: 20px;
-				width: 500px;
+				width: 300px;
+                text-align: center;
 				h2 {
 					font-size: 20px;
 				}
