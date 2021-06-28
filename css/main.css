@@ -456,6 +456,7 @@ p {
   width: 100%;
   height: 800px;
   align-items: center;
+  overflow: hidden;
 }
 
 .casa_seccion h3 {
@@ -468,16 +469,12 @@ p {
 }
 
 .casa_seccion .text-casamiento h2 {
-  font-size: 45px;
-  width: 500px;
-  text-align: left;
+  font-size: 35px;
 }
 
 .casa_seccion .text-casamiento p {
   font-size: 20px;
-  width: 500px;
   margin-top: 20px;
-  text-align: left;
 }
 
 .cards {
@@ -666,10 +663,10 @@ p {
     margin: 0 auto;
   }
   img {
-    width: 500px;
+    width: 450px;
   }
   .text-casamiento {
-    margin: 0 auto;
+    text-align: center;
   }
   .text-casamiento h2 {
     font-size: 45px;
@@ -821,17 +818,6 @@ p {
   }
 }
 
-.casamiento {
-  min-height: 1000px;
-  max-height: 1500px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  flex-wrap: wrap;
-  width: 500px;
-  margin: 0 auto;
-}
-
 @media (max-width: 961px) {
   header nav ul {
     position: fixed;
@@ -947,17 +933,6 @@ p {
   }
 }
 
-.casamiento {
-  min-height: 1000px;
-  max-height: 1500px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  flex-wrap: wrap;
-  width: 500px;
-  margin: 0 auto;
-}
-
 @media (max-width: 750px) {
   .conainer-fluid {
     height: 900px;
@@ -1010,20 +985,30 @@ p {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .casamiento {
-    min-height: 1000px;
-    max-height: 1500px;
+  .casa_seccion {
     display: flex;
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
   }
-  .servicios {
+  img {
+    width: 400px;
+  }
+  .text-casamiento {
+    text-align: center;
+    width: 400px;
+  }
+  .text-casamiento h2 {
+    font-size: 25px;
+  }
+  .text-casamiento p {
+    font-size: 16px;
+  }
+  .cards {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
+    margin: 0 auto;
   }
 }
