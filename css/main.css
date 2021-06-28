@@ -77,22 +77,8 @@ header nav ul a.active {
   transition: .3s;
 }
 
-.imgfull {
-  display: flex;
-}
-
-.imgfull img {
-  width: 100%;
-}
-
 .bootstrap {
-  width: 100%;
-}
-
-.bootstrap img {
-  max-width: 1920px;
-  margin: 0 auto;
-  height: 880px;
+  margin-top: 50px;
 }
 
 .bootstrap p {
@@ -443,7 +429,6 @@ p {
 
 .row {
   height: 80%;
-  background-color: red;
 }
 
 .centrar img {

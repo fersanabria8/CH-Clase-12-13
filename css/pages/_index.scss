@@ -74,19 +74,8 @@ nav {
 	}
 }
 }
-.imgfull {
-	display: flex;
-	img {
-		width: 100%;
-	}
-}
 .bootstrap {
-	width: 100%;
-	img {
-		max-width: 1920px;
-		margin: 0 auto;
-		height: 880px;
-	}
+		margin-top: 50px;
 	p {
 		color: $color-secundario;
 	}
