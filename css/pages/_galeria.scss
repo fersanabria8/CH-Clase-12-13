@@ -1,20 +1,38 @@
-.container-fluid {
-	display: flex;
-	width: 100%;
-	justify-content: center;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	margin: 0 auto;
-	img {
-		width: 50%;
-		height: 50%;
+.galeria_contenedor{
+	padding-top: 100px;
+  max-width: 1000px;
+  margin: 0 auto 48px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+
+
+	.galeria__card{
+		background-color: #fff;
+    text-align: center;
+		cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(0,0,0, 0.95);
+    transition: all 300ms;
+
+
+    
+		.item-img{
+      max-width: 95%;
+      margin: 5px auto;
+			display: block;
+		}
+    
+		.item-text {
+      padding: 16px;
+		}
+		
 	}
+  
+  .galeria__card:hover{
+    transform:scale(1.05);
+  }
 }
-.row {
-	height: 80%;
-}
-.centrar {
-	img {
-		width: 500px;
-	}
-}
+
+
+
+

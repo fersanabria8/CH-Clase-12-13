@@ -264,7 +264,6 @@ header{
 		text-align: center;
 	}
 
-/****************************************************************/	
 	.contenedor-formulario {
 		form {
 			display: grid;
@@ -292,19 +291,12 @@ header{
 			}
 		}
 	}
+  .galeria_contenedor{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 
 }
-
-// .casamiento {
-// 	min-height: 1000px;
-// 	max-height: 1500px;
-// 	display: flex;
-// 	flex-direction: column;
-// 	align-content: center;
-// 	flex-wrap: wrap;
-// 	width: 500px;
-// 	margin: 0 auto;
-// }
 
 @media (max-width: 750px) {
 	.conainer-fluid {
@@ -347,6 +339,10 @@ header{
 		flex-wrap: wrap;
 	}
 
+  .galeria_contenedor{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 
 }
 
@@ -364,8 +360,6 @@ header{
 	}
 
 	.casa_seccion {
-		// min-height: 1000px;
-		// max-height: 1500px;
 		display: flex;
 		flex-direction: column;
 		align-content: center;
@@ -394,5 +388,10 @@ header{
 		margin: 0 auto;
 
 	}
+
+  .galeria_contenedor{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
 
 }
