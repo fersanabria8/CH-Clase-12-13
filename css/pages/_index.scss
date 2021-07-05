@@ -11,6 +11,7 @@
 body {
 	background: rgb(189,189,189);
 	background: radial-gradient(circle, rgba(189,189,189,1) 11%, rgba(237,238,245,1) 91%);
+	
 }
 header {
 nav {
@@ -329,10 +330,99 @@ p {
 		}
 	}
 }
-.contenedor-footer {
-	display: flex;
-	justify-content: center;
+
+footer{
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 50px 100px;
+	background-color: rgba(0, 174, 255, 0.09);
+	text-decoration: none;
 }
-.contacto-info {
-	font-size: 18px;
+.contenedor-footer {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 2fr 1fr 1fr;
+	gap: 30px;
+
+	.contacto-info h2, .sec-links h2{
+		position:relative;
+		color: $color-boton;
+		font-weight: 500;
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
+
+	.redes{
+		margin-top: 20px;
+		display: grid;
+		grid-template-columns: repeat(4,  50px);
+
+		li{
+			list-style: none;
+		}
+		a{
+			display: inline-block;
+			width: 48px;
+			height: 48px;
+			background: rgba(0, 174, 255, .2);
+			display: grid;
+			align-content: center;
+			justify-content: center;
+			text-decoration: none;
+			border-radius: 4px;
+
+		}
+		a:hover{
+			background: $color-boton;
+		}
+		
+		.fab{
+			color: #fff;
+			font-size: 20px;
+		}
+		
+	}
+	
+	.sec-links{
+		position: relative;
+		li{
+			list-style: none;
+		}
+		
+		a{
+			color: black;
+			text-decoration: none;
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+
+		a:hover{
+			color: $color-boton;
+		}
+
+		.info{
+			margin-bottom: 16px;
+
+			li span{
+				color: black;
+			}
+
+			a{
+				color: black;
+				text-decoration: none;
+			}
+
+			a:hover{
+				color: $color-boton;
+			}
+		}
+
+	}
+		
+}
+.copyrightText{
+	width: 100%;
+	padding: 8px 100px;
+	text-align: center;
 }
