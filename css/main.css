@@ -10,7 +10,7 @@ header nav #check { display: none; }
 
 header nav label.logo { line-height: 80px; padding: 0 40px; }
 
-header nav label.logo img { border-radius: 100%; }
+header nav label.logo img { width: 75px; height: 75px; border-radius: 100%; }
 
 header nav ul { float: right; margin-right: 20px; }
 
