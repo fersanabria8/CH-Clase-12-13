@@ -77,9 +77,12 @@ nav {
 }
 .bootstrap {
 		margin-top: 50px;
-	p {
-		color: $color-secundario;
-	}
+		display: flex;
+		height: auto;
+		img{
+			width: 100%;
+			margin: 0 auto;
+		}
 }
 .contenedor-mkt {
 	height: 470px;
