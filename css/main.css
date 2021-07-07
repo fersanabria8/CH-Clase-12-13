@@ -16,9 +16,9 @@ header nav ul { float: right; margin-right: 20px; }
 
 header nav ul li { display: inline-block; line-height: 80px; margin: 0 5px; }
 
-header nav ul a { color: black; font-weight: 400; font-size: 20px; padding: 2px 16px; margin: 0 2px; background-color: rgba(0, 174, 255, 0.349); transition: all .5s; text-decoration: none; }
+header nav ul a { color: black; font-weight: 400; font-size: 20px; padding: 2px 16px; margin: 0 2px; background-color: rgba(0, 174, 255, 0.349); border-radius: 4%; transition: all .5s; text-decoration: none; }
 
-header nav ul a:hover { color: #0084ff; transition: .3s; }
+header nav ul a:hover { color: #0084ff; transition: .3s; border-radius: 4%; }
 
 header nav ul a.active { color: #0084ff; transition: .3s; }
 
@@ -64,7 +64,7 @@ header nav ul a.active { color: #0084ff; transition: .3s; }
 
 .box-img-text { margin: auto; display: flex; flex-direction: column; }
 
-.box-img-text img { width: 80px; border-radius: 50%; margin: auto; }
+.box-img-text img { width: 80px; height: 80px; border-radius: 50%; margin: auto; }
 
 .box-img-text h3 { color: black; margin: auto; }
 
@@ -148,7 +148,7 @@ footer { position: relative; width: 100%; height: auto; padding: 50px 100px; bac
 
 .contenedor { height: 900px; width: 100%; display: flex; flex-wrap: wrap; justify-content: space-around; background-color: rgba(0, 174, 255, 0.09); }
 
-.contenedor img { width: 450px; height: 600px; margin-top: 140px; }
+.contenedor img { width: 450px; height: 600px; border-radius: 4%; margin-top: 140px; }
 
 .contenedor .imagen:hover { transform: translateX(-50px); transition: 2s; }
 
@@ -170,17 +170,17 @@ footer { position: relative; width: 100%; height: auto; padding: 50px 100px; bac
 
 .casa_seccion h3 { text-transform: uppercase; }
 
-.casa_seccion img { height: 660px; margin-top: 50px; }
+.casa_seccion img { height: 660px; margin-top: 50px; border-radius: 4%; }
 
 .casa_seccion .text-casamiento h2 { font-size: 35px; }
 
 .casa_seccion .text-casamiento p { font-size: 20px; margin-top: 20px; }
 
-.cards { display: flex; justify-content: space-evenly; align-items: center; }
+.cards { display: flex; justify-content: space-evenly; align-items: center; margin-top: 50px; }
 
 .cards .cumple { height: 500px; display: flex; flex-direction: column; align-items: center; }
 
-.cards .cumple img { width: 300px; height: 300px; }
+.cards .cumple img { width: 300px; height: 300px; border-radius: 4%; }
 
 .cards .cumple .text-cumple { text-align: center; width: 300px; }
 
@@ -190,7 +190,7 @@ footer { position: relative; width: 100%; height: auto; padding: 50px 100px; bac
 
 .cards .reunion-coorporativa { height: 500px; display: flex; flex-direction: column; align-items: center; }
 
-.cards .reunion-coorporativa img { width: 300px; height: 300px; }
+.cards .reunion-coorporativa img { width: 300px; height: 300px; border-radius: 4%; }
 
 .cards .reunion-coorporativa .text-coorp { width: 300px; text-align: center; }
 
@@ -200,7 +200,7 @@ footer { position: relative; width: 100%; height: auto; padding: 50px 100px; bac
 
 .cards .expo-cultural { height: 500px; display: flex; flex-direction: column; align-items: center; }
 
-.cards .expo-cultural img { width: 300px; height: 300px; }
+.cards .expo-cultural img { width: 300px; height: 300px; border-radius: 4%; }
 
 .cards .expo-cultural .text-expo-cult { width: 300px; text-align: center; }
 

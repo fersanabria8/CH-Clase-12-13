@@ -13,6 +13,7 @@
     img {
         height: 660px;
         margin-top: 50px;
+        border-radius: 4%;
     }
 
     .text-casamiento {
@@ -32,7 +33,7 @@
 	display: flex;
 	justify-content: space-evenly;
     align-items: center;
-
+    margin-top: 50px;
     .cumple {
         height: 500px;
         display: flex;
@@ -42,6 +43,7 @@
         img {
             width: 300px;
             height: 300px;
+            border-radius: 4%;
         }
 
         .text-cumple {
@@ -70,6 +72,7 @@
         img {
             width: 300px;
             height: 300px;
+            border-radius: 4%;
         } 
             .text-coorp {
                 width: 300px;
@@ -93,6 +96,7 @@
         img {
             width: 300px;
             height: 300px;
+            border-radius: 4%;
         }        
             .text-expo-cult {
                 width: 300px;

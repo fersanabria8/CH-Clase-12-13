@@ -20,7 +20,6 @@ nav {
 	width: 100%;
 	z-index: 99;
 	position: fixed;
-	
 	.checkbtn{
 		font-size: 30px;
 		color: $color-text;
@@ -45,10 +44,8 @@ nav {
 		}
 	}
 	ul {
-
 		float: right;
 		margin-right: 20px;
-
 		li{
 			display: inline-block;
 			line-height: 80px;
@@ -62,11 +59,13 @@ nav {
 			padding: 2px 16px;
 			margin: 0 2px;
 			background-color: $color-principal;
+			border-radius:4%;
 			transition: all .5s;
 			text-decoration: none;
 			&:hover {
 				color: $color-boton;
 				transition: .3s;
+				border-radius: 4%;
 			}
 		}
 		a.active {
@@ -204,6 +203,7 @@ nav {
 	flex-direction: column;
 	img {
 		width: 80px;
+		height: 80px;
 		border-radius: 50%;
 		margin: auto;
 	}
