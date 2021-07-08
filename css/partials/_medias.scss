@@ -101,19 +101,37 @@
 	}
 }
 @media (max-width: 1230px) {
-	.mkt-caja {
-		min-height: 1550px;
-	}
 	.contenedor-mkt {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
-		max-height: 1600px;
-		min-height: 1500px;
+		height: 1900px;
 		align-items: center;
-		max-width: 900px;
+		max-width: 400px;
 		margin: 0 auto;
 	}
+	.mkt-caja {
+		width: 100%;
+		height: 2000px;
+	}
+	.box {
+		border-radius:4%;
+		width: 370px;
+		height: 565px;
+		margin-top: 50px;
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		img {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+		}
+	}
+
+	
+
 	.herramientas {
 		max-height: 1500px;
 		min-height: 1100px;
@@ -208,21 +226,120 @@ header{
    }
 }	
 @media (max-width: 768px) {
-	.mkt-caja {
-		min-height: 1500px;
+	.bootstrap {
+		padding-top: 120px;
+		display: flex;
+		justify-content: center;
 		margin: 0 auto;
-		max-width: 500px;
-	}
+		max-width: 100%;
+		max-height: 820px;
+		img{
+		width: 100%;
+		height: auto;
+		border-radius: 4px;
+		}
+}
+
+
+
 	.contenedor-mkt {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
-		max-height: 1500px;
-		min-height: 1400px;
+		height: 1900px;
 		align-items: center;
-		max-width: 900px;
+		max-width: 400px;
 		margin: 0 auto;
 	}
+	.mkt-caja {
+		width: 100%;
+		height: 2000px;
+	}
+	.box {
+		border-radius:4%;
+		width: 370px;
+		height: 565px;
+		margin-top: 50px;
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		img {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+		}
+	}
+
+	.box-transparente {
+
+		box-sizing: border-box;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		border-radius:4%;
+	
+		#unoh2 {
+			color: #fff;
+			font-weight: 100;
+			font-size: 20px;
+			margin: 0 auto;
+		}
+		#unop {
+			color: #FFF;
+			font-weight: 100;
+			font-size: 16px;
+			line-height: 25px;
+			text-align: center;
+			margin: 0 auto;
+		}
+		#dosh2 {
+			color: #fff;
+			font-weight: 100;
+			font-size: 20px;
+			margin: 0 auto;
+		}
+		#dosp {
+			color: #FFF;
+			font-weight: 100;
+			font-size: 16px;
+			line-height: 25px;
+			text-align: center;
+			margin: 0 auto;
+		}
+		#tresh2 {
+			color: #fff;
+			font-weight: 100;
+			font-size: 20px;
+			margin: 0 auto;
+		}
+		#tresp {
+			color: #FFF;
+			font-weight: 100;
+			font-size: 16px;
+			line-height: 25px;
+			text-align: center;
+			margin: 0 auto;
+		}
+		button {
+			color: rgba(255, 255, 255, 0.9);
+			font-weight: 100;
+			width: 70px;
+			margin: 10px auto;
+			background-color: transparent;
+			border: none;
+			font-weight: bolder;
+			&:hover {
+				color: $color-secundario;
+				border-radius: 5px;
+				background-color: $color-boton;
+				box-shadow: 0 5px 10px 2px $color-principal;
+			}
+		}
+	}
+	
+	
 	.conteiner-box {
 		flex-direction: column;
 		align-items: center;

@@ -5,13 +5,11 @@
 	text-decoration: none;
 	list-style: none;
 	box-sizing: border-box;
-	font-family: 'EB Garamond', sans-serif;
+	font-family: 'Encode Sans SC', sans-serif;
 	max-width: 1920px;
 }
 body {
-	background: rgb(189,189,189);
-	background: radial-gradient(circle, rgba(189,189,189,1) 11%, rgba(237,238,245,1) 91%);
-	
+	background-color: #394867;
 }
 header {
 nav {
@@ -39,7 +37,7 @@ nav {
 
 		img {
 			width: 75px;
-			height:75px;
+			height:79px;
 			border-radius: 100%;
 		}
 	}
@@ -53,12 +51,12 @@ nav {
 		}
 
 		a {
-			color: black;
-			font-weight: 400;
-			font-size: 20px;
+			color: #394867;
+			font-weight: 700;
+			text-transform: uppercase;
+			font-size: 14px;
 			padding: 2px 16px;
 			margin: 0 2px;
-			background-color: $color-principal;
 			border-radius:4%;
 			transition: all .5s;
 			text-decoration: none;
@@ -76,31 +74,37 @@ nav {
 }
 }
 .bootstrap {
-		margin-top: 50px;
+		padding-top: 120px;
 		display: flex;
-		
+		justify-content: center;
+		margin: 0 auto;
+		max-width: 70%;
+		max-height: 820px;
 		img{
 		width: 100%;
 		height: auto;
+		border-radius: 4px;
 		}
 }
 .contenedor-mkt {
-	height: 470px;
 	display: flex;
 	flex-wrap: wrap;
+	height: 650px;
 	flex-direction: row;
 	justify-content: space-around;
 	width: 100%;
 	position: relative;
 }
 .mkt-caja {
-	height: 420px;
+	padding-top: 60px;
+	height: 700px;
 	display: flex;
 	justify-content: space-evenly;
 }
 .box {
-	width: 400px;
-	height: 350px;
+	border-radius:4%;
+	width: 370px;
+	height: 525px;
 	margin-top: 50px;
 	position: relative;
 	overflow: hidden;
@@ -112,24 +116,70 @@ nav {
 		position: absolute;
 	}
 }
+
+#box_transparente_uno {
+	border-radius: 1%;
+	height: 150px;
+	width: 350px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#box_transparente_dos {
+	border-radius: 4%;
+	height: 150px;
+	width: 350px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#box_transparente_tres {
+	height: 150px;
+	width: 350px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
 .box-transparente {
-	margin-top: 110px;
+	margin-top: 28px;
 	box-sizing: border-box;
 	position: absolute;
-	height: 150px;
-	width: 180px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.7);
-	h2 {
-		color: rgba(255, 255, 255, 0.9);
+	border-radius:4%;
+
+	#unoh2 {
+		color: #fff;
 		font-weight: 100;
 		font-size: 20px;
 		margin: 0 auto;
 	}
-	p {
-		color: rgba(255, 255, 255, 0.9);
+	#unop {
+		color: #FFF;
+		font-weight: 100;
+		font-size: 16px;
+		line-height: 25px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	#dosh2 {
+		color: #fff;
+		font-weight: 100;
+		font-size: 20px;
+		margin: 0 auto;
+	}
+	#dosp {
+		color: #FFF;
+		font-weight: 100;
+		font-size: 16px;
+		line-height: 25px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	#tresh2 {
+		color: #fff;
+		font-weight: 100;
+		font-size: 20px;
+		margin: 0 auto;
+	}
+	#tresp {
+		color: #FFF;
 		font-weight: 100;
 		font-size: 16px;
 		line-height: 25px;
@@ -139,7 +189,8 @@ nav {
 	button {
 		color: rgba(255, 255, 255, 0.9);
 		font-weight: 100;
-		width: 60px;
+		font-size: 15px;
+		width: 100px;
 		margin: 10px auto;
 		background-color: transparent;
 		border: none;
@@ -152,8 +203,11 @@ nav {
 		}
 	}
 }
+
+
+
 .referencia-container {
-	height: 470px;
+	height: 500px;
 }
 #referencia-titulo {
 	margin: 20px 0 15px 0;
@@ -167,7 +221,7 @@ nav {
 	button {
 		padding: 2px;
 		border: none;
-		width: 70px;
+		width: 100px;
 		font-weight: bolder;
 		&:hover {
 			color: $color-secundario;
@@ -195,6 +249,7 @@ nav {
 	margin: auto;
 	padding: 20px;
 	background-color: rgba(0, 0, 0, 0.2);
+	border-radius:4%;
 	p {
 		color: $color-text;
 		font-size: 18px;
@@ -360,7 +415,7 @@ footer{
 	.redes{
 		margin-top: 20px;
 		display: grid;
-		grid-template-columns: repeat(4,  50px);
+		grid-template-columns: repeat(4, 50px);
 
 		li{
 			list-style: none;
