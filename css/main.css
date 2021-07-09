@@ -335,8 +335,8 @@ footer { position: relative; width: 100%; height: auto; padding: 50px 100px; bac
 
 @media (max-width: 615px) { .herramientas { max-height: 1500px; min-height: 2050px; }
   .box-herra1 { display: flex; justify-content: center; flex-wrap: wrap; flex-direction: row; }
-  .casa_seccion { display: flex; flex-direction: column; align-content: center; flex-wrap: wrap; width: 350px; margin: 0 auto; padding-top: 50px; }
-  img { width: 350px; height: auto; }
+  .casa_seccion { display: flex; flex-direction: column; align-content: center; flex-wrap: wrap; width: 380px; margin: 0 auto; padding-top: 50px; }
+  img { width: 360px; height: auto; }
   .text-casamiento { text-align: center; width: 400px; }
   .text-casamiento h2 { font-size: 25px; }
   .text-casamiento p { font-size: 16px; }
