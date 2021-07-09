@@ -9,7 +9,7 @@
 	max-width: 1920px;
 }
 body {
-	background-color: #394867;
+	background-color: $color-principal;
 }
 header {
 nav {
@@ -51,7 +51,7 @@ nav {
 		}
 
 		a {
-			color: #394867;
+			color: $color-principal;
 			font-weight: 700;
 			text-transform: uppercase;
 			font-size: 14px;
@@ -121,18 +121,18 @@ nav {
 	border-radius: 1%;
 	height: 150px;
 	width: 350px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: $color_boxtrans;
 }
 #box_transparente_dos {
 	border-radius: 4%;
 	height: 150px;
 	width: 350px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: $color_boxtrans;
 }
 #box_transparente_tres {
 	height: 150px;
 	width: 350px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: $color_boxtrans;
 }
 
 .box-transparente {
@@ -145,13 +145,13 @@ nav {
 	border-radius:4%;
 
 	#unoh2 {
-		color: #fff;
+		color: $color-secundario;
 		font-weight: 100;
 		font-size: 20px;
 		margin: 0 auto;
 	}
 	#unop {
-		color: #FFF;
+		color: $color-secundario;
 		font-weight: 100;
 		font-size: 16px;
 		line-height: 25px;
@@ -159,13 +159,13 @@ nav {
 		margin: 0 auto;
 	}
 	#dosh2 {
-		color: #fff;
+		color: $color-secundario;
 		font-weight: 100;
 		font-size: 20px;
 		margin: 0 auto;
 	}
 	#dosp {
-		color: #FFF;
+		color: $color-secundario;
 		font-weight: 100;
 		font-size: 16px;
 		line-height: 25px;
@@ -173,13 +173,13 @@ nav {
 		margin: 0 auto;
 	}
 	#tresh2 {
-		color: #fff;
+		color: $color-secundario;
 		font-weight: 100;
 		font-size: 20px;
 		margin: 0 auto;
 	}
 	#tresp {
-		color: #FFF;
+		color: $color-secundario;
 		font-weight: 100;
 		font-size: 16px;
 		line-height: 25px;
@@ -293,11 +293,13 @@ p {
 }
 .contenedor-herramientas {
 	text-align: center;
+	width: 400px;
 	&:hover {
 		transform: translateX(10px);
 		transition: 2s;
 	}
 	img {
+		height: 350px;
 		&:hover {
 			border-radius: 5px;
 			box-shadow: gray 1px 1px 5px 5px;
@@ -361,7 +363,7 @@ p {
 			background: none;
 			outline: none;
 			border-bottom: 1px solid $color-boton;
-			background: rgba(0, 174, 255, 0.09);
+			background: $color_textarea;
 			background-color: $color-boton;
 			color: $color-secundario;
 			border: 0;
@@ -376,7 +378,7 @@ p {
 			background: none;
 			outline: none;
 			border-bottom: 1px solid $color-boton;
-			background: rgba(0, 174, 255, 0.09);
+			background: $color_textarea;
 		}
 		textarea {
 			width: 100%;
@@ -385,7 +387,7 @@ p {
 			background: none;
 			outline: none;
 			border-bottom: 1px solid $color-boton;
-			background: rgba(0, 174, 255, 0.09);
+			background: $color_textarea;
 		}
 	}
 }
@@ -395,7 +397,7 @@ footer{
 	width: 100%;
 	height: auto;
 	padding: 50px 100px;
-	background-color: rgba(0, 174, 255, 0.09);
+	background-color: $color_textarea;
 	text-decoration: none;
 }
 .contenedor-footer {
@@ -415,7 +417,7 @@ footer{
 	.redes{
 		margin-top: 20px;
 		display: grid;
-		grid-template-columns: repeat(4, 50px);
+		grid-template-columns: repeat(4, 60px);
 
 		li{
 			list-style: none;
@@ -437,7 +439,7 @@ footer{
 		}
 		
 		.fab{
-			color: #fff;
+			color: $color-secundario;
 			font-size: 20px;
 		}
 		
@@ -450,7 +452,7 @@ footer{
 		}
 		
 		a{
-			color: black;
+			color: $color-text;
 			text-decoration: none;
 			margin-bottom: 10px;
 			display: inline-block;
@@ -464,11 +466,11 @@ footer{
 			margin-bottom: 16px;
 
 			li span{
-				color: black;
+				color: $color-text;
 			}
 
 			a{
-				color: black;
+				color: $color-text;
 				text-decoration: none;
 			}
 

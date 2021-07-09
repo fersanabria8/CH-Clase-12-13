@@ -6,6 +6,7 @@
 		flex-direction: column;
 		align-content: center;
 		flex-wrap: wrap;
+		padding-top: 50px;
 		width: 500px;
 		margin: 0 auto;
 	}
@@ -130,8 +131,6 @@
 		}
 	}
 
-	
-
 	.herramientas {
 		max-height: 1500px;
 		min-height: 1100px;
@@ -186,9 +185,7 @@
 
 @media (max-width: 961px) {
 header{
-	
 	nav{
-
 		ul{
 			position: fixed;
 			width: 100%;
@@ -239,9 +236,6 @@ header{
 		border-radius: 4px;
 		}
 }
-
-
-
 	.contenedor-mkt {
 		display: flex;
 		flex-direction: column;
@@ -281,13 +275,13 @@ header{
 		border-radius:4%;
 	
 		#unoh2 {
-			color: #fff;
+			color: $color-secundario;
 			font-weight: 100;
 			font-size: 20px;
 			margin: 0 auto;
 		}
 		#unop {
-			color: #FFF;
+			color: $color-secundario;
 			font-weight: 100;
 			font-size: 16px;
 			line-height: 25px;
@@ -295,13 +289,13 @@ header{
 			margin: 0 auto;
 		}
 		#dosh2 {
-			color: #fff;
+			color: $color-secundario;
 			font-weight: 100;
 			font-size: 20px;
 			margin: 0 auto;
 		}
 		#dosp {
-			color: #FFF;
+			color: $color-secundario;
 			font-weight: 100;
 			font-size: 16px;
 			line-height: 25px;
@@ -309,13 +303,13 @@ header{
 			margin: 0 auto;
 		}
 		#tresh2 {
-			color: #fff;
+			color: $color-secundario;
 			font-weight: 100;
 			font-size: 20px;
 			margin: 0 auto;
 		}
 		#tresp {
-			color: #FFF;
+			color: $color-secundario;
 			font-weight: 100;
 			font-size: 16px;
 			line-height: 25px;
@@ -485,12 +479,13 @@ header{
 		flex-direction: column;
 		align-content: center;
 		flex-wrap: wrap;
-		width: 400px;
+		width: 350px;
 		margin: 0 auto;
+		padding-top: 50px;
 	}
 		img {
-			width: 400px;
-			
+			width: 350px;
+			height: auto;
 		}
 
 	.text-casamiento {
@@ -507,9 +502,7 @@ header{
 		display: flex;
 		flex-direction: column;
 		margin: 0 auto;
-
 	}
-
   .galeria_contenedor{
     grid-template-columns: repeat(1, 1fr);
   }
